@@ -1,0 +1,109 @@
+.wrapper .container section.reservation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.wrapper .container section.reservation h2 {
+    width: 100%;
+    color: #232323;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    margin: 0;
+}
+
+.wrapper .container section.reservation .images {
+    margin-top: 90px;
+    width: 650px;
+    display: flex;
+    justify-content: start;
+    position: relative;
+}
+
+.wrapper .container section.reservation .images .image1 {
+    width: 285px;
+    height: 492px;
+    flex-shrink: 0;
+    box-shadow: 2px 4px 10px 1px rgba(35, 35, 35, 0.15);
+}
+
+.wrapper .container section.reservation .images .image2 {
+    width: 329px;
+    height: 585px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 250px;
+    top: -50px;
+    box-shadow: 2px 4px 10px 1px rgba(35, 35, 35, 0.15);
+}
+
+.wrapper .container section.reservation form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.wrapper .container section.reservation form input {
+    width: 476px;
+    height: 60px;
+    margin-bottom: 40px;
+    border: 0.5px solid rgba(35, 35, 35, 0.85);
+    background: #FFF;
+}
+
+.wrapper .container section.reservation form textarea {
+    width: 480px;
+    height: 221px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    margin-bottom: 40px;
+    border: 0.5px solid rgba(35, 35, 35, 0.85);
+    background: #FFF;
+    resize: none;
+}
+
+.wrapper .container section.reservation form input::placeholder {
+    color: rgba(35, 35, 35, 0.35);
+    padding: 18px 20px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.4px;
+    letter-spacing: 0.9px;
+}
+
+.wrapper .container section.reservation form textarea::placeholder {
+    color: rgba(35, 35, 35, 0.35);
+    padding: 18px 20px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.4px;
+    letter-spacing: 0.9px;
+}
+
+.wrapper .container section.reservation form a {
+    display: flex;
+    width: 478px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    text-decoration: none;
+    border: 1px solid;
+    color: #A52424;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}

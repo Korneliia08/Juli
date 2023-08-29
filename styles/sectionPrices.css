@@ -1,0 +1,107 @@
+.wrapper .container section.prices {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.wrapper .container section.prices .card {
+    display: flex;
+    width: 505px;
+    height: 460px;
+    background: #FFF;
+    box-shadow: 0px 6px 10px 3px rgba(0, 0, 0, 0.05);
+    flex-shrink: 0;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.wrapper .container section.prices .card img {
+    width: 290px;
+    height: 290px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 270px;
+}
+
+
+.wrapper .container section.prices h2 {
+    width: 100%;
+    color: #232323;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    margin: 0;
+    margin-bottom: 150px;
+}
+
+.wrapper .container section.prices h3 {
+    color: #A52424;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    margin: 30px 0 25px 0;
+    margin-top: 200px;
+}
+
+.wrapper .container section.prices .card table tr td:first-child {
+    color: #232323;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.wrapper .container section.prices .card table tr td:last-child {
+    color: #232323;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 195px;
+}
+.wrapper .container section.prices .card .priceAndButton{
+    width: 100%;
+    padding-left: 40px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.wrapper .container section.prices .card .priceAndButton p{
+    color: #A52424;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    margin: 30px 0;
+}
+
+.wrapper .container section.prices .card .priceAndButton a{
+text-decoration: none;
+color: #A52424;
+text-align: center;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 230px;
+height: 60px;
+border: 1px solid #A52424;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 25px 40px 25px 40px;
+}

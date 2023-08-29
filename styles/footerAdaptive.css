@@ -1,0 +1,15 @@
+
+
+@media(max-width: 1150px){
+.wrapper footer {
+    flex-wrap: wrap;justify-content: center;
+    gap: 30px;
+}
+    
+}
+
+@media(max-width: 500px){
+    
+
+}
+

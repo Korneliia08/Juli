@@ -1,0 +1,97 @@
+@media(max-width:1140px){
+
+    .wrapper .container header .logoNav {
+        justify-content: center;
+        }
+    .wrapper .container header .logoNav nav {
+        padding: 20px;
+        gap: 10px;
+    }
+    .wrapper .container header nav a.number {
+        margin-left: 20px;
+    }
+
+    .wrapper .container header section {
+        padding-top: 50px;
+        gap: 10px;
+    }
+
+    .wrapper .container header section img{
+        max-width: 474px;
+    }
+
+    .wrapper .container header section .photograph h1 {
+        font-size: 50px;
+    }
+    
+    .wrapper .container header section .photograph h3 {
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+    
+    .wrapper .container header section .photograph a {
+        padding: 5px;
+        width: 200px;
+    }
+}
+
+
+
+@media(max-width:800px){
+
+    .wrapper .container header section img{
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .wrapper .container header .logoNav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .wrapper .container header .logoNav nav{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .wrapper .container header section {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .wrapper .container header section .photograph h1, .wrapper .container header section .photograph h3{
+   text-align: center;
+   margin: 0;
+   font-size: 30px;
+      }
+      .wrapper .container header section .photograph h3{
+        font-size: 25px;
+      }
+
+      .wrapper .container header section .photograph a{
+    margin-top: 10px;
+           }
+
+    .wrapper .container header section .photograph {
+        flex-wrap: wrap;
+        align-items: center;
+        }
+        .wrapper .container header .logoNav nav {
+            gap: 20px;
+        }
+        .wrapper .container header .logoNav nav a {
+            font-size: 20px;
+        }
+
+    
+}
+
+@media(max-width:660px){
+        .wrapper .container header .logoNav nav a {
+            font-size: 20px;
+        }
+
+    
+}

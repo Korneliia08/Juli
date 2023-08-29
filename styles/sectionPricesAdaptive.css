@@ -1,0 +1,47 @@
+@media(max-width: 1150px) {
+    .wrapper .container section.prices {
+        justify-content: center;
+    }
+
+    .wrapper .container section.prices .card {
+        width: auto;
+        max-width: 500px;
+        margin: 80px 0;
+        min-height: 460px;
+        height: auto;
+
+    }
+
+    .wrapper .container section.prices .card:first-of-type {
+        margin-top: 120px;
+    }
+
+    .wrapper .container section.prices h2 {
+        margin-bottom: 0;
+    }
+
+}
+
+
+@media(max-width:550px) {
+
+    .wrapper .container section.prices .card img {
+        width: 100%;
+        position: static;
+    }
+
+    .wrapper .container section.prices .card h3 {
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .wrapper .container section.prices .card .priceAndButton {
+
+        padding-left: 0;
+    }
+
+    .wrapper .container section.prices .card .priceAndButton a {
+        margin: 25px 0px 25px 0px;
+    }
+}
