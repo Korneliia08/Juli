@@ -1,2 +1,2 @@
 # Juli
-Website "Juli" was made withcompatibility with lower resolution screens.
+Website "Juli" was made with compatibility with lower resolution screens.
