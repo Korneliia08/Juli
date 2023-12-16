@@ -1,2 +1,2 @@
-# Tepmlate of website "Photograph"
+# Template of website "Photograph"
 
